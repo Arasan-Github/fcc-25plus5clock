@@ -11,9 +11,6 @@ const min = 60;
 const max = 60 * 60;
 const interval = 60;
 
-const startStop = () => {
-  console.log("startstop");
-};
 
 function App() {
   const [breakTime, setBreakTime] = useState(defaultBreakTime);
